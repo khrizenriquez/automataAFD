@@ -1,0 +1,65 @@
+body{
+margin:0;
+font-family: 'Open Sans', sans-serif;
+background-image: url('../images/pattern_156.gif');
+}
+*{
+list-style:none;
+}
+/* MENU */
+ul{
+margin-top:0px;
+background:#2E3B38;
+border-bottom:2px solid #0A3B2A;
+}
+ul li{
+}
+ul li img{
+	width:3%;
+}
+.titulo{
+font-size:40px;
+font-family: 'Oswald', sans-serif;
+color:white;
+}
+
+.titulo-trans{
+font-size:40px;
+font-family: 'Oswald', sans-serif;
+}
+
+#container{
+margin:auto;
+max-width:1000px;
+margin-top:-10px;
+}
+#cargaArchivo,#tablaTrans,#alfabeto,#estados,#estadosAcepta{
+text-align:center;
+}
+
+.btn-center{
+margin:auto;
+max-width:500px;
+}
+.tablaTransD{
+border-spacing: 10px 10px ;
+}
+td{
+}
+.cols{
+background:#05689E;
+height:50px;
+width:20%;
+text-align:center;
+border-radius:5px;
+color:white;
+}
+
+thead{
+background:#4E916E;
+height:50px;
+width:20%;
+text-align:center;
+border-radius:5px;
+color:white;
+}

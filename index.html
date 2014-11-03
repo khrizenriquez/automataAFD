@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>AUTOMATAS</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='css/style.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="analizador.js"></script>
+
+</head>
+<body>
+<ul>
+	<li>
+		<a><img src='images/.png'></a>
+	</li>
+</ul>
+<div id="container">
+<div id="cargaArchivo">
+	<div class="btn-center">
+		<input type="file" onchange="loadAutomata(this.files[0])" id='boton'>
+	</div>
+</div>
+<br><br>
+<div id="tablaTrans">
+	<br><br>
+	<span class="titulo">TABLA DE TRANSICIÓN (W)</span>
+	<div class="btn-center" id='respuesta'></div>
+</div>
+<div id="alfabeto">
+	<br><br>
+	<span class="titulo">ALFABETO (&#931;)</span><br>
+	<span id='alfabetoResp' class="titulo-trans" style='color:#54B87F'></span>
+</div>
+
+<div id="estados">
+	<br><br>
+	<span class="titulo">ESTADOS (Q)</span><br>
+	<span id='estadosResp' class="titulo-trans" style='color:#54B87F'></span>
+</div>
+
+<div id="estadosAcepta">
+	<br><br>
+	<span class="titulo">ESTADOS DE ACEPTACIÓN (A)</span><br>
+	<span id='estadosAceptaResp' class="titulo-trans" style='color:#54B87F'></span>
+</div>
+
+<!--div style="border:1px solid red;">
+<div id='respuesta'></div>
+</div-->
+	<!--div id='centrado'>
+		<div class="titulo"></div>
+			<label id='fileUpload'>Cargar
+				<div id='cajaFile'>
+					<input type="file" onchange="loadAutomata(this.files[0])" id='boton'>
+				</div>
+			</label>
+	</div-->
+</div>
+
+</body>
+</html>
