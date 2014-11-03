@@ -1,7 +1,8 @@
 body{
-margin:0;
-font-family: 'Open Sans', sans-serif;
-background-image: url('../images/pattern_156.gif');
+	background-image: url('../images/pattern_156.gif');
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin:0;
 }
 *{
 list-style:none;
@@ -17,6 +18,21 @@ ul li{
 ul li img{
 	width:3%;
 }
+
+#btnProceso {
+	padding: 1em;
+	color: black;
+	background: rgba(250, 250, 250, .8);
+	border: none;
+	border-radius: 2em;
+	transition: all 0.5s linear;
+}
+#btnProceso:hover {
+	background: rgb(255, 255, 255);
+	cursor: pointer;
+	transition: all 0.5s linear;
+}
+
 .titulo{
 font-size:40px;
 font-family: 'Oswald', sans-serif;

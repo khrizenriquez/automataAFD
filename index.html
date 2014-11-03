@@ -12,13 +12,16 @@
 <body>
 <ul>
 	<li>
-		<a><img src='images/.png'></a>
+		<a><img src='images/172.png'></a>
 	</li>
 </ul>
 <div id="container">
 <div id="cargaArchivo">
 	<div class="btn-center">
-		<input type="file" onchange="loadAutomata(this.files[0])" id='boton'>
+		<form>
+			<input type="file" onchange="loadAutomata(this.files[0])" id='boton'>
+			<button id="btnProceso" type="button">Selecciona un archivo</button>
+		</form>
 	</div>
 </div>
 <br><br>
@@ -58,5 +61,7 @@
 	</div-->
 </div>
 
+
+<script src="js/jquery.min.js"></script>
 </body>
 </html>
